@@ -1,0 +1,165 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*--------------------*/
+.bigred {
+  font-size: 20px;
+  color: red;
+}
+
+body {
+  display: flex;
+  width: 363px;
+  height: 800px;
+  background-color: #242522;
+}
+
+.header {
+  width: 363px;
+  height: 32px;
+  font-size: 15px;
+}
+.header h1 {
+  padding-top: 10px;
+  color: #fff;
+}
+
+.grid {
+  font-size: 12px;
+}
+.grid input {
+  color: #fff;
+  width: 363px;
+  height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 34px;
+  background-color: #3e3f3ca9;
+}
+.grid .btn {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-direction: row;
+}
+.grid .btn button {
+  color: #fff;
+  /* цвет текста */
+  text-decoration: none;
+  /* убирать подчёркивание у ссылок */
+  -webkit-user-select: none;
+          user-select: none;
+  /* убирать выделение текста */
+  background: #F2C94C;
+  /* фон кнопки */
+  padding: 0.7em 1.5em;
+  /* отступ от текста */
+  outline: none;
+  /* убирать контур в Mozilla */
+  width: 121px;
+  height: 85px;
+}
+.grid .btn button:hover {
+  background: #FFE080;
+}
+.grid .btn button:active {
+  background: #FFC513;
+}
+.grid .btn .sum {
+  width: 363px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.grid .btn .sum button {
+  color: #fff;
+  /* цвет текста */
+  text-decoration: none;
+  /* убирать подчёркивание у ссылок */
+  -webkit-user-select: none;
+          user-select: none;
+  /* убирать выделение текста */
+  background: #BDBDBD;
+  /* фон кнопки */
+  padding: 0.7em 1.5em;
+  /* отступ от текста */
+  outline: none;
+  /* убирать контур в Mozilla */
+  width: 121px;
+  height: 85px;
+}
+.grid .btn .sum button:hover {
+  background: #DDDDDD;
+}
+.grid .btn .sum button:active {
+  background: #939393;
+}
